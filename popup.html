@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: 'Courier New', monospace;
+      background-color: #2c1e3d;
+      color: #ffe16b;
+      padding: 15px;
+      width: 220px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    #toggle {
+      transform: scale(1.5);
+      margin-right: 10px;
+      accent-color: #ffe16b;
+    }
+
+    label {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      cursor: pointer;
+      background: #5e3f88;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px #000;
+    }
+
+    #statusText {
+      font-size: 14px;
+      margin-top: 15px;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <h1>Dashhole Mode</h1>
+  <label>
+    <input type="checkbox" id="toggle">
+    <span id="labelText">Be a Dashhole</span>
+  </label>
+  <div id="statusText">Hyphen justice awaits.</div>
+  <script src="popup.js"></script>
+</body>
+</html>
