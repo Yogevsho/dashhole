@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 💥 Dashhole
 
 ### Because em dashes are pretentious - and you're not.
@@ -62,3 +63,7 @@ No em dashes were harmed in the making of this extension.
 ## 📃 License
 
 MIT - because we’re Dashholes, not monsters.
+=======
+# dashhole
+Chrome extension that replaces em dashes with hyphens on ChatGPT. That's it.
+>>>>>>> 1cb37e4b8eda6a7459e0fe84f60c65ace1dee530
